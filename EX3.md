@@ -1,6 +1,7 @@
 # EX 3 SubQueries, Views and Joins 
-
-
+## Date:18.8.23
+## AIM: 
+To Create SubQueries Views and Joins
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
@@ -193,3 +194,6 @@ SELECT * FROM salesman1 RIGHT JOIN customer1 ON salesman1.salesman_id = customer
 ```
 ### OUTPUT:
 ![image](https://github.com/BharathCSEIOT/EX-3-SubQueries-Views-and-Joins/assets/122793480/d41b4e6c-9d8f-4ed2-b8d3-8c0554cb72ae)
+
+## RESULT:
+Queries Executed successfully.
